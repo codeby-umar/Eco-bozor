@@ -4,4 +4,12 @@
 
 @theme{
     --pop : font-family: "Poppins", sans-serif;
+    --greens : #002603;
+    --limes : #00B207;
+}
+
+
+.container{
+    width: 100% 30px 1445px;
+    margin: 0 auto;
 }

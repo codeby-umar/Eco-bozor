@@ -11,11 +11,14 @@ import ShoppingId from "./pages/Shoppingid.jsx";
 import Notfound from "./components/Notfound.jsx";
 import { Route, Routes } from "react-router-dom";
 import ShoppingCart from "./pages/ShoppingCart.jsx";
+import ProductsLiks from "./pages/ProductsLike.jsx";
+import Map from "./components/Map.jsx";
 
 function App() {
   return (
     <>
       <Routes>
+        <Route path="/map" element={<Map />} />
         <Route
           path="/"
           element={
@@ -70,6 +73,14 @@ function App() {
           element={
             <Layout>
               <ShoppingId />
+            </Layout>
+          }
+        />
+        <Route
+          path="/like"
+          element={
+            <Layout>
+              <ProductsLiks />
             </Layout>
           }
         />
