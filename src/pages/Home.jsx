@@ -1,11 +1,13 @@
+import Special from "../components/Home/Special"
+import Categories from "../components/Home/Categories"
 
-
-function HomePages() {
+function Home() {
   return (
-    <div>
-          <h1>Home Pages</h1>
-    </div>
+    <section className="container">
+          <Special/>
+          <Categories/>
+    </section>
   )
 }
 
-export default HomePages
+export default Home

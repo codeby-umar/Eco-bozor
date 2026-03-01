@@ -13,7 +13,7 @@ import { Route, Routes } from "react-router-dom";
 import ShoppingCart from "./pages/ShoppingCart.jsx";
 import ProductsLiks from "./pages/ProductsLike.jsx";
 import Map from "./components/Map.jsx";
-import HomePages from "./pages/Home.jsx";
+import HomePage from "./pages/HomePages.jsx";
 
 function App() {
   return (
@@ -45,10 +45,10 @@ function App() {
           }
         />
         <Route
-          path="/pages"
+          path="/newpapers"
           element={
             <Layout>
-              <HomePages />
+              <HomePage />
             </Layout>
           }
         />

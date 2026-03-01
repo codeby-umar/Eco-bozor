@@ -1,20 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import "tailwindcss";
 
-
-@theme{
-    --pop : font-family: "Poppins", sans-serif;
-    --greens : #002603;
-    --limes : #00B207;
+@theme {
+  --pop: font-family: "Poppins", sans-serif;
+  --greens: #002603;
+  --limes: #00b207;
 }
 
-
-.container{
-    width: 100% 30px 1445px;
-    margin: 0 auto;
+.container {
+  width: 100% 30px 1445px;
+  margin: 0 auto;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+}
 
-body{
-    font-family: "Poppins" , sans-serif;
+.images {
+  background: url("./assets/images/Bannar.svg");
+  background-repeat: no-repeat;
+  padding: 0px 60px;
+  display: flex;
+  align-items: center;
+  height: 630px;
+  width: 100%;
+}
+
+.sale {
+  background: url("./assets/images/BG.svg");
+  background-repeat: no-repeat;
+  padding: 32px;
+  width: 423px;
+  height: 288px;
+}
+.sales {
+  background: url("./assets/images/BG\ \(1\).svg");
+  background-repeat: no-repeat;
+  padding: 32px;
+  width: 423px;
+  height: 288px;
 }

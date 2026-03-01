@@ -116,7 +116,7 @@ function Navbar() {
             <ul className="flex text-[#999999] text-sm items-center gap-10" >
               <NavLink to={"/"}>Home</NavLink>
               <NavLink to={"/shop"}>Shop</NavLink>
-              <NavLink to={"/pages"}>Pages</NavLink>
+              <NavLink to={"/newpapers"}>Pages</NavLink>
               <NavLink to={"/blog"}>Blog</NavLink>
               <NavLink to={"/about"}>About Us</NavLink>
               <NavLink to={"/contact"}>Contact Us</NavLink>
