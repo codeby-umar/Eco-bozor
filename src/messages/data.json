@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Green Carrot",
+    "price": "$14.99",
+    "oldPrice": "$20.99",
+    "img": "https://www.svgheart.com/wp-content/uploads/2021/11/carrot-bunny-easter-free-svg-file-SvgHeart.Com.png"
+  },
+  {
+    "id": 2,
+    "name": "Green Chili",
+    "price": "$34.99",
+    "oldPrice": "$20.99",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Cabbage_by_aidaivars.svg/960px-Cabbage_by_aidaivars.svg.png"
+  },
+  {
+    "id": 3,
+    "name": "Green Capsicum",
+    "price": "$14.99",
+    "oldPrice": "$20.99",
+    "img": "https://www.svgheart.com/wp-content/uploads/2021/11/pumpkin-vegetables-farm-autumn-free-svg-file-SvgHeart.Com.png"
+  },
+  {
+    "id": 4,
+    "name": "Green Lettuce",
+    "price": "$9.00",
+    "oldPrice": "$20.99",
+    "img": "https://img.pikbest.com/png-images/20240924/broccoli-vector-graphic--e2-80-93-white-background_10885469.png!sw800"
+  },
+  {
+    "id": 5,
+    "name": "Fresh Indian Malta",
+    "price": "$14.99",
+    "oldPrice": "$20.99",
+    "img": "https://images.icon-icons.com/3507/PNG/512/beet_beetroot_vegetables_vegetable_food_agriculture_icon_220791.png"
+  },
+  {
+    "id": 6,
+    "name": "Red Poteto",
+    "price": "$14.99",
+    "oldPrice": "$20.99",
+    "img": "https://png.pngtree.com/png-vector/20221207/ourmid/pngtree-fresh-tomato-vegetable-sticker-image-png-image_6513949.png"
+  },
+  {
+    "id": 7,
+    "name": "Green Apple",
+    "price": "$14.99",
+    "oldPrice": "$20.99",
+    "img": "https://png.pngtree.com/png-clipart/20240701/original/pngtree-eggplant-vegetable-vector-illustration-isolated-on-a-transparent-backgrond-png-image_15458646.png"
+  },
+  {
+    "id": 8,
+    "name": "Green Apple",
+    "price": "$14.99",
+    "oldPrice": "$20.99",
+    "img": "https://cdn-icons-png.flaticon.com/512/5582/5582554.png"
+  },
+  {
+    "id": 9,
+    "name": "Green Apple",
+    "price": "$14.99",
+    "oldPrice": "$20.99",
+    "img": "https://png.pngtree.com/png-vector/20240724/ourmid/pngtree-strawberry-red-fruit-vegetable-yummy-vector-png-image_13213385.png"
+  },
+  {
+    "id": 10,
+    "name": "Green Apple",
+    "price": "$14.99",
+    "oldPrice": "$20.99",
+    "img": "https://img.freepik.com/premium-vector/fresh-vibrant-broccoli-vector-illustrations-add-green-appeal-your-designs_1132808-898.jpg"
+  }
+]
