@@ -1,11 +1,12 @@
 import { BiSearch } from "react-icons/bi";
 import { FiSearch } from "react-icons/fi";
 import { HiOutlineLocationMarker } from "react-icons/hi";
-import { Link } from "react-router-dom";
+import { Link , NavLink } from "react-router-dom";
 import Logo from "../assets/icons/plant.svg";
 import Bag from "../assets/icons/Bag.svg";
 import Heart from "../assets/icons/Heart.svg";
 import { useState } from "react";
+import phone from "../assets/icons/Group.svg"
 
 function Navbar() {
   const [search, setSearch] = useState("");
@@ -77,11 +78,11 @@ function Navbar() {
             </button>
           </div>
           {search && (
-            <ul className="fixed p-1">
+            <ul className="fixed rounded-b-lg bg-white w-124 p-2">
               {Over_View.map((items, i) => (
                 <a
                   href="/ssa"
-                  className="text-sm flex items-center gap-1 font-pop"
+                  className=" mb-1 flex items-center gap-1 font-pop"
                   key={i}
                 >
                   {" "}
@@ -108,6 +109,22 @@ function Navbar() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className=" bg-[#333333] text-white p-5">
+        <div className="container flex items-center justify-between">
+            <ul className="flex text-[#999999] text-sm items-center gap-10" >
+              <NavLink to={"/"}>Home</NavLink>
+              <NavLink to={"/shop"}>Shop</NavLink>
+              <NavLink to={"/pages"}>Pages</NavLink>
+              <NavLink to={"/blog"}>Blog</NavLink>
+              <NavLink to={"/about"}>About Us</NavLink>
+              <NavLink to={"/contact"}>Contact Us</NavLink>
+           </ul>
+           <div className="flex items-center gap-2 text-sm">
+                <img src={phone} alt="telfons" />
+                <a href="tel:+998507121208">(+998) 50 712 12 08</a>
+           </div>
         </div>
       </div>
     </header>

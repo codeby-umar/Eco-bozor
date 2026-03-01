@@ -1,8 +1,10 @@
-import React from 'react'
+
 
 function HomePages() {
   return (
-    <div>HomePages</div>
+    <div>
+          <h1>Home Pages</h1>
+    </div>
   )
 }
 

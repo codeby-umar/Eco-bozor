@@ -2,7 +2,7 @@ import Blog from "./pages/Blog.jsx";
 import About from "./pages/About.jsx";
 import SignUp from "./Auth/Sign_Up.jsx";
 import SignIn from "./Auth/Sign_In.jsx";
-import Home from "./pages/HomePages.jsx";
+import Home from "./pages/Home.jsx";
 import Layout from "./layout/Layout.jsx";
 import Contact from "./pages/Contact.jsx";
 import Shopping from "./pages/Shopping.jsx";
@@ -13,6 +13,7 @@ import { Route, Routes } from "react-router-dom";
 import ShoppingCart from "./pages/ShoppingCart.jsx";
 import ProductsLiks from "./pages/ProductsLike.jsx";
 import Map from "./components/Map.jsx";
+import HomePages from "./pages/Home.jsx";
 
 function App() {
   return (
@@ -44,6 +45,14 @@ function App() {
           }
         />
         <Route
+          path="/pages"
+          element={
+            <Layout>
+              <HomePages />
+            </Layout>
+          }
+        />
+        <Route
           path="/blog"
           element={
             <Layout>
@@ -60,14 +69,6 @@ function App() {
           }
         />
         <Route path="/dashboard" element={<Dashboard />} />
-        <Route
-          path="/blog"
-          element={
-            <Layout>
-              <Blog />
-            </Layout>
-          }
-        />
         <Route
           path="/shop:id"
           element={
