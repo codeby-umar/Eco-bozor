@@ -80,7 +80,7 @@ function Navbar() {
             <ul className="fixed p-1">
               {Over_View.map((items, i) => (
                 <a
-                  href="/"
+                  href="/ssa"
                   className="text-sm flex items-center gap-1 font-pop"
                   key={i}
                 >
