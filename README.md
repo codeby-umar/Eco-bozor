@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://items.templately.com/media/10070/Screenshots-2-(1).jpg" width="100%" alt="Eco Bozor Banner"/>
+  <img src="https://i.ibb.co/ksXjS6Tn/Thumbnail.jpg" width="100%" alt="Eco Bozor Banner"/>
 </p>
 # 🌿 Eco-Bozor — Organic eCommerce Platform
 
